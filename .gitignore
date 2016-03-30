@@ -1,2 +1,3 @@
 scala/.ensime_cache
 scala/target
+scala/*.class
