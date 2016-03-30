@@ -1,0 +1,22 @@
+(
+ :root-dir "/Users/Souhei/programming/aoj/scala"
+ :cache-dir "/Users/Souhei/programming/aoj/scala/.ensime_cache"
+ :name "scala"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home"
+ :java-flags ("-XX:MaxMetaspaceSize=256m" "-XX:ReservedCodeCacheSize=128m" "-Xms1024m" "-Xmx1024m" "-Xss2m")
+ :reference-source-roots ("/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/src.zip")
+ :scala-version "2.10.6"
+ :compiler-args ("-Xfuture" "-Xlint" "-Yinline-warnings" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-deprecation" "-feature")
+ :formatting-prefs nil
+ :subprojects ((
+   :name "scala"
+   :source-roots nil
+   :targets ("/Users/Souhei/programming/aoj/scala/target/scala-2.10/classes")
+   :test-targets ("/Users/Souhei/programming/aoj/scala/target/scala-2.10/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/Souhei/.sbt/boot/scala-2.10.6/lib/scala-library.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/Users/Souhei/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.6-javadoc.jar" "/Users/Souhei/programming/aoj/scala/target/scala-2.10/scala_2.10-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/Users/Souhei/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.6-sources.jar")))
+)
