@@ -6,9 +6,10 @@ def insertion_sort(N, A):
             A[j+1] = A[j]
             j = j -1
         A[j+1] = v
+        print(" ".join(A))
 
 if __name__ == '__main__':
-    N = input()
+    N = int(input())
     A = input().split()
 
     insertion_sort(N, A)
