@@ -13,6 +13,3 @@
          result)
        (min (first lst) minv)
        (rest lst)))))
-
-(println (max-profit [5 3 1 3 4 3]))
-(println (max-profit [4 3 2]))
