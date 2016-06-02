@@ -23,9 +23,9 @@
             n (nth-of-min xs)]
         (recur (if (= 0 n)
                  (rest xs)
-                 (assoc (rest xs) (- n 1) f))
+                 (assoc (vec (rest xs)) (- n 1) f))
                (conj sorted (nth xs n)))))))
 
 (println (selection-sort [5 6 4 2 1 3])) ;4
-;;(println (selection-sort [5 2 4 6 1 3])) ;3
+(println (selection-sort [5 2 4 6 1 3])) ;3
 
